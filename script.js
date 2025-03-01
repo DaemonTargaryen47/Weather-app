@@ -5,8 +5,7 @@ async function getWeather() {
         return;
     }
 
-    const apiKey = "https://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=CityName
-"; // Replace with your OpenWeather API key
+    const apiKey = "https://api.weatherapi.com/v1/current.json?0385d450bd354ee3954150554250103&q=Dhaka"
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
     try {
